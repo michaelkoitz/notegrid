@@ -1,0 +1,26 @@
+# NoteGrid config: expects key-value pairs
+# number of availablelaunchpad pads
+pads 				2
+
+# matrix dimension defines how many buttons
+# that is 8 for launchpad, but could be there are other devices
+# with other dimensions, who knows :) 
+matrix_dimension	8
+
+# defines accuracy of polling the time to check whether a steps is to e announced
+# used in sequencer: time_between_steps / polling_divisor
+# 2 means half the time, 4 means a quarter of the time between steps
+
+polling_divisor 	2
+
+# Tempo in BPM
+tempo				60
+
+# Defines the resolution of the sequencer
+division 			2
+
+# Colors
+cursor_color		22
+
+# Number of sequencers to be read from sequencer configuratiuon
+no_of_seq			2
